@@ -288,6 +288,7 @@
 			html: true,
 			// type: "input",
 			showCancelButton: true,
+			cancelButtonText: 'Отменить',
 			closeOnConfirm: false,
 			animation: "slide-from-top",
 			inputPlaceholder: "Write something",
@@ -300,7 +301,6 @@
 			swal("Спасибо!", "Ожидайте звонок в течении 15 минут", "success");
 		  });
 	})
-	
   $('.appointment_date').datepicker({
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
